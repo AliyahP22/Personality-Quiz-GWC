@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<title>Aliyah's Personality Quiz </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+  <style>
+  body {
+      font-family: 'Berkshire Swash';font-size: 22px;
+  }
+  </style>
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Which Disney Princess Are You?</h1>
+		<p>Answer all of the questions based on your preferences!</p>
+	</header>
+
+	<main>
+
+		<h2>Do you like gold or silver jewelry better?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/gold.jpg" alt="Gold rings and bracelets">
+        <br>
+        <button id="q1a1">Gold Jewelry</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/silver.jpg" alt="A silver and copper necklace">
+        <br>
+        <button id="q1a2">Silver Jewelry</button>
+      </div>
+
+    </div> 
+    
+    <h2>Which do you like better? Singing or Dancing?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/singing.jpg" alt="A close up of a person singing">
+        <br>
+        <button id="q2a1">Singing</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/dance.jpg" alt="A ballerina dancer">
+        <br>
+        <button id="q2a2">Dancing</button>
+      </div>
+
+    </div> 
+    
+    <h2>Would you rather stay indoors or go out?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/indoorRoom.jpg" alt="A view of a living room">
+        <br>
+        <button id="q3a1">Stay Indoors</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/outdoors.jpg" alt="A view of a outdoor field">
+        <br>
+        <button id="q3a2">Go Outdoors</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your result is...</h2>
+    
+    <div style="text-align: center; margin-top: 2em;">
+      <button id="restart" style="display: none; padding: 10px 20px; font-size: 16px;">Restart Quiz</button>
+    </div>
+    
+  </main>
+  </body>
+</html>
